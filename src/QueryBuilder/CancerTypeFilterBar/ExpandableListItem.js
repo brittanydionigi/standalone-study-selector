@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../FilterList.css';
-import SubList from './SubList';
 
 class ExpandableListItem extends Component {
 
@@ -14,7 +13,6 @@ class ExpandableListItem extends Component {
       >
         {content}
         <span>{subContent.length}</span>
-        { isSelected && <SubList key={content} listItems={subContent} /> }
       </li>
     );
   }
