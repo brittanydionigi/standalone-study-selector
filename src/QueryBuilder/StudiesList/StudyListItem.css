@@ -1,0 +1,4 @@
+.StudyListItem span.fa-square-o, .StudyListItem span.fa-check-square-o {
+  margin: 0 5px 0 0;
+  min-width: 15px;
+}

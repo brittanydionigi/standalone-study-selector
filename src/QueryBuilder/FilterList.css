@@ -1,0 +1,140 @@
+ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px 15px;
+  font: normal normal 400 14px/18px 'Helvetica Neue';
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+h3 {
+  background-color: #1982b8;
+  border-bottom: 2px solid rgb(17, 116, 167);
+  color: #fff;
+  font: normal normal 500 13px/18px 'Helvetica Neue';
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+ul.CancerFilter {
+  background-color: rgb(232, 241, 248);
+}
+
+ul.CancerFilter li {
+  font-size: 13px;
+  color: #043852;
+  border-bottom: 1px solid rgb(222, 233, 241);
+  border-top: 1px solid rgb(243, 248, 251);
+  padding: 10px 0px;
+  text-indent: 15px;
+}
+
+ul.CancerFilter span {
+  float: right;
+  font: normal normal 400 10px/19px 'Helvetica Neue';
+  background-color: rgb(222, 233, 241);
+  border-radius: 2px;
+  padding: 0 5px;
+  margin: 0 15px 0 30px;
+  min-width: 15px;
+  text-align: center;
+  text-indent: 0px;
+}
+
+ul.CancerFilter li.expanded {
+  color: #000;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  background-color: rgba(143, 189, 212, 0.42);
+}
+
+ul.SubList {
+  background-color: rgba(143, 189, 212, 0.42);
+  margin-top: 10px;
+  box-shadow: inset 0 8px 8px -11px #000, inset 0 -8px 8px -11px #000;
+  transition: all 0.4s ease-out;
+}
+
+ul.SubList li {
+  border-top: 0px;
+  border-bottom: 0px;
+  font-size: 12px;
+}
+
+li.CancerHeadingLevel0 {
+    font: normal normal 500 16px/18px 'Helvetica Neue';
+    color: #333;
+    border-bottom: 1px solid rgb(232, 241, 248);
+    padding: 10px 5px;
+    margin: 0px 10px;
+}
+
+li.CancerHeadingLevel1 {
+    font: normal normal 400 15px/18px 'Helvetica Neue';
+    color: #085e8a;
+    padding: 5px 15px;
+}
+
+li.CancerHeadingLevel2 {
+    font: normal normal 500 12px/18px 'Helvetica Neue';
+    color: #1982b8;
+    padding: 15px 15px 5px 15px;
+    text-transform: uppercase;
+}
+
+li.CancerHeadingLevel3 {
+    font: normal normal 500 13px/18px 'Helvetica Neue';
+    color: #444;
+    padding: 0px 15px 5px 15px;
+}
+
+ul.StudyList {
+  margin: 10px 0 20px 0;
+}
+
+ul.StudyList.Level2, ul.StudyList.Level3 {
+  margin: 0;
+}
+
+li.StudyListItem {
+  color: #666;
+  padding: 5px 0;
+  margin: 0 0 0 15px;
+}
+
+.cta.select-all {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  background: rgb(222, 233, 241);
+  border: 0px;
+  border-radius: 2px;
+  font: normal normal 500 11px/13px 'Helvetica Neue';
+  padding: 3px 8px;
+  display: inline-block;
+  z-index: 100;
+}
+
+.cta.select-all:hover {
+  cursor: pointer;
+}
+
+div.StudiesList {
+  background: #fff;
+  width: 75%;
+}
+
+
+
+
+ul.SubList {
+  opacity: 0;
+  height: 0;
+}

@@ -1,0 +1,10 @@
+.StudyLinks {
+  margin: 0 10px;
+  display: inline;
+}
+
+.StudyLinks a {
+  display: inline-block;
+  margin: 0 3px;
+  color: #1982b8;
+}

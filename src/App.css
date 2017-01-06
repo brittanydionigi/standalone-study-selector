@@ -1,0 +1,49 @@
+.App {
+  margin: 50px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h2 {
+  font: normal normal 200 24px/36px 'Helvetica Neue';
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+#QueryBuilderContainer {
+/*  background: #eee;*/
+  width: 100%;
+}
+
+#QueryTabBar {
+  display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+#QueryTabBar li {
+  width: 50%;
+}
+
+#QueryTabBar li.active {
+  background: orange;
+}

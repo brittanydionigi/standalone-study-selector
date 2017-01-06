@@ -1,0 +1,9 @@
+.Query-Builder {
+  margin: 5px 0 0 0;
+  width: 100%;
+  display: flex;
+}
+
+.Query-Builder > div {
+  padding: 0px;
+}
